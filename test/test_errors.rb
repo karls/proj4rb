@@ -1,6 +1,4 @@
-$: << 'lib' << 'ext'
-require File.join(File.dirname(__FILE__), '..', 'lib', 'proj4')
-require 'test/unit'
+require 'helper'
 
 class ErrorsTest < Test::Unit::TestCase
 
@@ -18,8 +16,8 @@ class ErrorsTest < Test::Unit::TestCase
     end
 
     def test_num
-        assert 0, Proj4::UnknownError.errnum
-        assert 1, Proj4::NoArgsInInitListError.errnum
+        assert_equal 0, Proj4::UnknownError.errnum
+        assert_equal 1, Proj4::NoArgsInInitListError.errnum
     end
 
     def test_raise

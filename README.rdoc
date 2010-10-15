@@ -1,4 +1,11 @@
-=Proj4rb
+= Proj4rb for Ruby 1.9
+
+This project exists to provide a Ruby 1.9 compatible version of Proj4rb.  Only 
+minor changes have been made in the source code to make this happen.  The bulk of the 
+changes have been the inclusion of Jeweler for easily packaging.  It's not really nice 
+to bump the version number, so I've left it at 0.3.1.
+
+== Proj4rb 
 
 This is a Ruby binding for the Proj.4 Carthographic Projection library
 (http://trac.osgeo.org/proj/), that supports conversions between a large

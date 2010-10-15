@@ -1,6 +1,4 @@
-$: << 'lib' << 'ext'
-require File.join(File.dirname(__FILE__), '..', 'lib', 'proj4')
-require 'test/unit'
+require 'helper'
 
 class TransformTest < Test::Unit::TestCase
 

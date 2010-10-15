@@ -1,6 +1,4 @@
-$: << 'lib' << 'ext'
-require File.join(File.dirname(__FILE__), '..', 'lib', 'proj4')
-require 'test/unit'
+require 'helper'
 
 if Proj4::LIBVERSION >= 449
     class ProjectionTypesTest < Test::Unit::TestCase
