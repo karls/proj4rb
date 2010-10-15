@@ -62,7 +62,8 @@ Gem::Specification.new do |s|
      "ext/projrb.c",
      "ext/vc/proj4_ruby.sln",
      "ext/vc/proj4_ruby.vcproj",
-     "lib/proj4.rb",
+     "lib/proj4rb.rb",
+     "test/helper.rb",
      "test/test_constants.rb",
      "test/test_create_projection.rb",
      "test/test_datums.rb",
@@ -83,7 +84,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Ruby bindings for the Proj.4 Carthographic Projection library}
   s.test_files = [
-    "test/test_constants.rb",
+    "test/helper.rb",
+     "test/test_constants.rb",
      "test/test_create_projection.rb",
      "test/test_datums.rb",
      "test/test_ellipsoids.rb",
