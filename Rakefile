@@ -14,7 +14,7 @@ begin
     gem.required_ruby_version = '>= 1.9'
     gem.requirements << 'Proj.4 C library'
     gem.extensions = ['ext/extconf.rb']
-    gem.files = Dir.glob("{data,ext,example,test,lib}/**/*") + %w(LICENSE README.rdoc CHANGELOG TODO Rakefile)    
+    gem.files = Dir.glob("{data,ext,example,test,lib}/**/*") + %w(LICENSE README.rdoc Changelog TODO Rakefile)    
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
