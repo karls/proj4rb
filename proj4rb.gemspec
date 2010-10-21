@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{proj4rb}
-  s.version = "0.3.1"
+  s.version = "0.3.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Guilhem Vellut"]
-  s.date = %q{2010-10-20}
+  s.date = %q{2010-10-21}
   s.description = %q{Proj4rb is a ruby binding for the Proj.4 Carthographic Projection library, that supports conversions between a very large number of geographic coordinate systems and datums.}
   s.email = %q{guilhem.vellut@gmail.com}
   s.extensions = ["ext/extconf.rb"]
